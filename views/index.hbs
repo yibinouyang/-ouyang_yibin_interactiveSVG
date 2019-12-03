@@ -1,0 +1,26 @@
+    <h1 class="main-header">Welcome to ogwarts School of Witchcraft and Wizardry</h1>
+    <main>
+        <section id="part1">
+        {{#each house}}
+          <div class="harrypic">
+            <h1>HOGWARTS</h1>
+            <object data="images/{{image}}" type="image/svg+xml" class="svg-graphic" id="bottle"></object>
+          </div>
+
+          <div class="details">
+            <h2>{{Founder}}</h2>
+            <h3>Well-known alumni:{{alumni}}</h3>
+            <p>
+              {{Representative}}
+            </p>
+          </div>
+          {{/each}}
+        </section>
+
+            <section id="info">
+                <img src="/images/bg.jpg" alt="">
+          <h4>Each school has a special meaning</h4>
+          <p>Gryffindor stands for fire, Ravenclaw stands for wind, Hetchpac stands for soil, and Slytherin stands for water. When the four elements exist at the same time, they constitute a complete system. But as we all know, they are also independent.</p>
+        </section>
+    </main>
+    <script src="js/main.js"></script>
