@@ -1,6 +1,6 @@
 
     body{
-    background-image: linear-gradient(black, black);
+    background-image: linear-gradient(white, pink);
     .hidden {
         display: none;
     }
@@ -48,7 +48,7 @@
         h3{
             text-align: center;
             margin: 0 auto;
-            color: darkgray;
+            color: rgb(90, 151, 90);
             font-size: 20px;
             width: 400px;
         }
@@ -65,7 +65,7 @@
         margin: 0 auto;
         margin-top: 60px;
         img{
-            width: 30%;
+            width: 50%;
             height: auto;
             text-align: center;
             margin: 0 auto;
@@ -90,7 +90,7 @@
 
 
 
-@media screen and (min-width:400px){
+@media screen and (min-width:600px){
     body{
         background-image: linear-gradient(#efefef, #efefef);
         .hidden {
@@ -103,10 +103,10 @@
             padding: 0;
             font-size: 13pt;
         }
-        width: 730px;
+        width: 700px;
     
         .main-header{
-            width: 730px;
+            width: 700px;
             text-align: center;
             margin: 0 auto;
             h5{
@@ -142,7 +142,7 @@
                 margin: 0 auto;
                 color: darkgray;
                 font-size: 20px;
-                width: 730px;
+                width: 710px;
             }
             p{
                 text-align: center;
